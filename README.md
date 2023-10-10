@@ -1,1 +1,62 @@
 # looptasks
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //task-1
+        for( var a=0;a<=10;a++){
+        console.log(a);
+        alert(a)
+       }
+       //task-2
+       let num=3
+       while(num<=30){
+        console.log(num);
+        num+=3;
+        alert(num);
+       }
+       //task-3
+       const text = "jai janasena";
+    let lastindex = text.length-1;
+   do {
+    console.log(text.charAt(lastindex));
+    lastindex--;
+    alert(lastindex)
+   } while (lastindex >= 0)
+   //task-4
+   for(let i=5; i<=8; i++){
+    console.log(i>=5 && i<=8);
+    alert(i);
+   }
+   //task-5
+   let number =70930;
+   while(number>0){
+    console.log(number%10);
+    number= Math.floor(number/10);
+    alert(number);
+   }
+   //task6
+   function findLength(input) {
+  let count = 0;
+  let a = 0;
+  while (input[a] !== undefined) {
+    count++;
+    a++;
+  }
+  return count;
+}
+
+let input = "YourInputString";
+let length = findLength(input);
+console.log("length:", length);
+alert(length);
+   
+   </script>
+ </body>
+</html>
+
